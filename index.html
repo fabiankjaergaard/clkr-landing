@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLKR. — Make typing fun again.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Work+Sans:wght@300;400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+</head>
+<body>
+
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <img src="assets/logo.png" alt="CLKR" class="nav-logo-img">
+        <span class="nav-brand">CLKR.</span>
+      </div>
+      <div class="nav-links">
+        <a href="#features" class="nav-link">// features</a>
+        <a href="#sounds" class="nav-link">// sounds</a>
+        <a href="#stats" class="nav-link hide-mobile">// stats</a>
+        <a href="#download" class="btn-nav">DOWNLOAD</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="section-label">// macOS menubar app</p>
+      <h1 class="hero-headline">MAKE<br>TYPING<br>FUN.</h1>
+      <div class="hero-sub">
+        <p class="hero-desc">Satisfying click sounds, ambient focus modes, and gamified typing. Level up, unlock sounds, stay in the zone. Free, offline, no account needed.</p>
+        <a href="assets/CLKR.zip" download class="btn-brutal btn-accent">DOWNLOAD FREE</a>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <span class="badge-label">macOS 12+</span>
+      <span class="badge-divider"></span>
+      <span class="badge-label">26 MB</span>
+      <span class="badge-divider"></span>
+      <span class="badge-label">FREE</span>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span class="marquee-item">CLICK</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">CLACK</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">FOCUS</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">LEVEL UP</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">UNLOCK</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">CLICK</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">CLACK</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">FOCUS</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">LEVEL UP</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">UNLOCK</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">CLICK</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">CLACK</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">FOCUS</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">LEVEL UP</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">UNLOCK</span>
+      <span class="marquee-dot"></span>
+    </div>
+  </div>
+
+  <!-- FEATURES -->
+  <section id="features" class="section section-light">
+    <div class="container">
+      <p class="section-label dark">// what it does</p>
+      <h2 class="section-headline dark">YOUR KEYBOARD,<br>BUT BETTER.</h2>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <span class="feature-number">01</span>
+          <h3 class="feature-title">SATISFYING SOUNDS</h3>
+          <p class="feature-desc">12+ sound profiles and growing. iPhone clicks, typewriter hammers, bubble pops. Pick one for keyboard, another for mouse. Instant joy.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-number">02</span>
+          <h3 class="feature-title">FOCUS MODE</h3>
+          <p class="feature-desc">Built-in ambient sounds. Brown noise, pink noise, rain, cafe, forest, thunderstorm. Stay in the zone while you work.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-number">03</span>
+          <h3 class="feature-title">GAMIFIED TYPING</h3>
+          <p class="feature-desc">XP for every keystroke. Levels. Achievements. Coins. Unlock sounds and music tracks. Typing is now a game.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-number">04</span>
+          <h3 class="feature-title">MENUBAR NATIVE</h3>
+          <p class="feature-desc">Lives in your menubar. Zero windows. Zero dock icons. Click the icon, tweak settings, close. Done.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOUNDS -->
+  <section id="sounds" class="section section-dark">
+    <div class="container">
+      <p class="section-label">// sound profiles</p>
+      <h2 class="section-headline">SOUNDS &<br>AMBIENCE.</h2>
+
+      <p class="section-label" style="margin-top: 2rem;">// keyboard & mouse</p>
+      <div class="sounds-grid">
+        <button class="sound-tag sound-unlocked" data-sound="assets/sounds/iphone_key.wav">iPHONE</button>
+        <button class="sound-tag sound-unlocked" data-sound="assets/sounds/attach_begin.wav">SNAP</button>
+        <button class="sound-tag sound-unlocked" data-sound="assets/sounds/focus.wav">SOFT TOCK</button>
+        <button class="sound-tag sound-unlocked" data-sound="assets/sounds/single_click.wav">CLICKY</button>
+        <button class="sound-tag sound-locked">HAPTIC <span class="sound-lock">LOCKED</span></button>
+        <button class="sound-tag sound-locked">TOGGLE <span class="sound-lock">LOCKED</span></button>
+        <button class="sound-tag sound-locked">STROKE <span class="sound-lock">LOCKED</span></button>
+        <button class="sound-tag sound-locked">PRESS <span class="sound-lock">LOCKED</span></button>
+        <button class="sound-tag sound-locked">PINCH <span class="sound-lock">LOCKED</span></button>
+        <button class="sound-tag sound-locked">FLICK <span class="sound-lock">LOCKED</span></button>
+        <button class="sound-tag sound-locked">BUMP <span class="sound-lock">LOCKED</span></button>
+        <button class="sound-tag sound-locked">KEYS <span class="sound-lock">LOCKED</span></button>
+      </div>
+
+      <p class="section-label" style="margin-top: 3rem;">// ambient & focus</p>
+      <div class="sounds-grid">
+        <button class="sound-tag sound-ambient" data-ambient="assets/sounds/ambient/brownnoise.m4a">BROWN NOISE</button>
+        <button class="sound-tag sound-ambient" data-ambient="assets/sounds/ambient/pinknoise.m4a">PINK NOISE</button>
+        <button class="sound-tag sound-ambient" data-ambient="assets/sounds/ambient/rain.m4a">RAIN</button>
+        <button class="sound-tag sound-ambient" data-ambient="assets/sounds/ambient/ocean.m4a">OCEAN</button>
+        <button class="sound-tag sound-ambient" data-ambient="assets/sounds/ambient/campfire.m4a">CAMPFIRE</button>
+        <button class="sound-tag sound-ambient" data-ambient="assets/sounds/ambient/cafe.m4a">CAFE</button>
+        <button class="sound-tag sound-ambient" data-ambient="assets/sounds/ambient/forest.m4a">FOREST</button>
+      </div>
+
+      <p class="sounds-note">// 1 unlocked at start. Earn the rest by typing. 6 ambient sounds + music tracks. More coming.</p>
+
+      <script>
+        (function() {
+          var current = null;
+          var activeBtn = null;
+
+          function stopCurrent() {
+            if (current) { current.pause(); current.currentTime = 0; current = null; }
+            if (activeBtn) { activeBtn.classList.remove('sound-active'); activeBtn = null; }
+          }
+
+          document.querySelectorAll('.sound-unlocked').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+              stopCurrent();
+              document.querySelectorAll('.sound-unlocked').forEach(function(b) { b.classList.remove('sound-active'); });
+              var audio = new Audio(btn.dataset.sound);
+              audio.volume = 0.7;
+              audio.play();
+              current = audio;
+              activeBtn = btn;
+              btn.classList.add('sound-active');
+              audio.onended = function() { btn.classList.remove('sound-active'); current = null; activeBtn = null; };
+            });
+          });
+
+          document.querySelectorAll('.sound-ambient').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+              if (activeBtn === btn) { stopCurrent(); return; }
+              stopCurrent();
+              document.querySelectorAll('.sound-ambient, .sound-unlocked').forEach(function(b) { b.classList.remove('sound-active'); });
+              var audio = new Audio(btn.dataset.ambient);
+              audio.loop = true;
+              audio.volume = 0.3;
+              audio.play();
+              current = audio;
+              activeBtn = btn;
+              btn.classList.add('sound-active');
+            });
+          });
+
+          document.querySelectorAll('.sound-locked').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+              btn.classList.add('sound-shake');
+              setTimeout(function() { btn.classList.remove('sound-shake'); }, 400);
+            });
+          });
+        })();
+      </script>
+    </div>
+  </section>
+
+  <!-- PULL QUOTE -->
+  <section class="section section-accent">
+    <div class="container">
+      <blockquote class="pull-quote">
+        <span class="quote-mark">"</span>Typing should feel good.<br>Now it does.
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section id="stats" class="section section-dark">
+    <div class="container">
+      <p class="section-label">// gamification</p>
+      <h2 class="section-headline">THE MORE<br>YOU TYPE.</h2>
+
+      <div class="stats-grid">
+        <div class="stat-block">
+          <span class="stat-number">50</span>
+          <span class="stat-label">LEVELS</span>
+        </div>
+        <div class="stat-block">
+          <span class="stat-number">20+</span>
+          <span class="stat-label">ACHIEVEMENTS</span>
+        </div>
+        <div class="stat-block">
+          <span class="stat-number">12+</span>
+          <span class="stat-label">SOUND PROFILES</span>
+        </div>
+        <div class="stat-block">
+          <span class="stat-number">0</span>
+          <span class="stat-label">SUBSCRIPTIONS</span>
+        </div>
+      </div>
+
+      <div class="stats-details">
+        <div class="stat-detail">
+          <span class="detail-label">// tracking</span>
+          <p class="detail-text">Keystrokes, clicks, WPM, daily streaks, session time. All local. Nothing leaves your Mac.</p>
+        </div>
+        <div class="stat-detail">
+          <span class="detail-label">// achievements</span>
+          <p class="detail-text">First 100 keys. 10K milestone. Night owl. Speed demon. Weekend warrior. 25 unique badges to hunt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE 2 -->
+  <div class="marquee-strip marquee-reverse">
+    <div class="marquee-track marquee-track-reverse">
+      <span class="marquee-item">NO CLOUD</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">NO ACCOUNT</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">NO SUBSCRIPTION</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">NO TELEMETRY</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">NO CLOUD</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">NO ACCOUNT</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">NO SUBSCRIPTION</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">NO TELEMETRY</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">NO CLOUD</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">NO ACCOUNT</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">NO SUBSCRIPTION</span>
+      <span class="marquee-dot"></span>
+      <span class="marquee-item">NO TELEMETRY</span>
+      <span class="marquee-dot"></span>
+    </div>
+  </div>
+
+  <!-- DOWNLOAD CTA -->
+  <section id="download" class="section section-light">
+    <div class="container cta-container">
+      <p class="section-label dark">// get it</p>
+      <h2 class="cta-headline">DOWNLOAD<br>CLKR.</h2>
+      <p class="cta-desc">Free. 26 MB. macOS 12+. No account needed.</p>
+      <a href="assets/CLKR.zip" download class="btn-brutal btn-download">
+        <span class="btn-icon">&#8984;</span>
+        DOWNLOAD FOR MAC
+      </a>
+      <p class="cta-note">// ad-hoc signed. Unzip, right-click CLKR.app → Open on first launch.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-brand">CLKR.</span>
+      <span class="footer-copy">// 2026 Low Noise Systems</span>
+      <span class="footer-link">Built by someone who types a lot.</span>
+    </div>
+  </footer>
+
+</body>
+</html>
