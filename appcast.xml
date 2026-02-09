@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>CLKR Updates</title>
+    <link>https://clkr-landing.vercel.app</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 1.1</title>
+      <pubDate>Sun, 09 Feb 2026 17:00:00 +0100</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Full theme system — themes change entire app appearance</li>
+          <li>Ambient sounds: brown noise, pink noise, rain, ocean, campfire, cafe, forest</li>
+          <li>Harder level and achievement progression</li>
+          <li>Volume controls at top of Focus and Sounds tabs</li>
+          <li>Auto-updates via Sparkle</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://clkr-landing.vercel.app/updates/CLKR-1.1.zip"
+        sparkle:edSignature="ChIXip3NyFGKNOiUhg/PS7YUe6AyJFOahZX8BK8a+EVPVqetNpyAJ5m8SmI+Mx96L2mWcrVQ8z1kZZvxfSF8Cg=="
+        length="27978722"
+        type="application/octet-stream"
+      />
+    </item>
+
+  </channel>
+</rss>

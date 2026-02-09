@@ -1,0 +1,16 @@
+{
+  "headers": [
+    {
+      "source": "/appcast.xml",
+      "headers": [
+        { "key": "Content-Type", "value": "application/xml" }
+      ]
+    },
+    {
+      "source": "/updates/(.*)",
+      "headers": [
+        { "key": "Content-Type", "value": "application/octet-stream" }
+      ]
+    }
+  ]
+}
