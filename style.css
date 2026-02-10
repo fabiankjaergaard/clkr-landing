@@ -161,8 +161,8 @@ img {
 
 .hero-watermark {
   position: absolute;
-  right: 5%;
-  top: 50%;
+  right: 8%;
+  top: 54%;
   transform: translateY(-50%);
   width: 550px;
   height: 550px;
