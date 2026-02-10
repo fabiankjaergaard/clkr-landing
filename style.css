@@ -279,6 +279,22 @@ img {
   margin-right: 8px;
 }
 
+.btn-support {
+  background: transparent;
+  color: var(--color-gray-light);
+  border: 2px solid var(--color-gray-mid);
+  font-size: 0.75rem;
+  padding: 12px 28px;
+  margin-top: 20px;
+  display: inline-block;
+  transition: all 0.15s;
+}
+
+.btn-support:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
 /* ---- SECTION LABELS ---- */
 
 .section-label {
