@@ -297,38 +297,64 @@ img {
 
 /* ---- SUPPORT SECTION ---- */
 
-.support-section {
-  margin-top: 3rem;
-  padding-top: 2.5rem;
-  border-top: 2px solid var(--color-gray-mid);
-  max-width: 480px;
-  margin-left: auto;
-  margin-right: auto;
+.support-card {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  border: 2px solid var(--color-gray-mid);
+  padding: 2.5rem;
+}
+
+.support-left {
+  flex-shrink: 0;
+}
+
+.support-cup {
+  width: 80px;
+  height: auto;
+  opacity: 0.9;
+}
+
+.support-right {
+  flex: 1;
+}
+
+.support-headline {
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--color-white);
+  line-height: var(--leading-tight);
+  margin-bottom: 0.75rem;
 }
 
 .support-text {
   font-family: var(--font-body);
   font-size: 0.85rem;
-  color: var(--color-gray-mid);
+  color: var(--color-gray-light);
   line-height: 1.6;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .support-goal {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.1em;
-  color: var(--color-gray-light);
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--color-accent);
   margin-bottom: 1.5rem;
 }
 
-.kofi-icon {
-  height: 16px;
-  width: auto;
-  vertical-align: middle;
-  margin-right: 6px;
-  position: relative;
-  top: -1px;
+@media (max-width: 600px) {
+  .support-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 2rem 1.5rem;
+  }
+  .support-cup {
+    width: 60px;
+  }
 }
 
 /* ---- SECTION LABELS ---- */
