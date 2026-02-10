@@ -281,18 +281,20 @@ img {
 
 .btn-support {
   background: transparent;
-  color: var(--color-gray-light);
+  color: var(--color-gray-mid);
   border: 2px solid var(--color-gray-mid);
-  font-size: 0.75rem;
-  padding: 12px 28px;
-  margin-top: 20px;
-  display: inline-block;
+  font-size: 1rem;
+  padding: 20px 36px;
+  display: inline-flex;
+  align-items: center;
   transition: all 0.15s;
+  box-shadow: 6px 6px 0 0 var(--color-gray-mid);
 }
 
 .btn-support:hover {
   border-color: var(--color-accent);
   color: var(--color-accent);
+  box-shadow: 3px 3px 0 0 var(--color-accent);
 }
 
 /* ---- SUPPORT / CTA BUTTONS ---- */
@@ -306,12 +308,10 @@ img {
 }
 
 .kofi-icon {
-  height: 16px;
+  height: 20px;
   width: auto;
   vertical-align: middle;
-  margin-right: 6px;
-  position: relative;
-  top: -1px;
+  margin-right: 8px;
 }
 
 /* ---- SECTION LABELS ---- */
